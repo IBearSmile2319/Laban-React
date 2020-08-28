@@ -13,10 +13,6 @@ function Home() {
             </Hidden>
             {/* Ofertas como un carrusel */}
             <HomeOfertas/>
-            <HomeOfertas/>
-            <HomeOfertas/>
-            <HomeOfertas/>
-            <HomeOfertas/>
         </div>
     )
 }
