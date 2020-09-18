@@ -26,7 +26,8 @@ const OfertasList = [
 ];
 function HomeOfertas() {
     var ofertas = {
-        accessibility: true,
+        accessibility:false,
+        arrows:false,
         dots: false,
         infinite: false,
         slidesToShow: 3,
@@ -34,7 +35,7 @@ function HomeOfertas() {
     };
     return (
         <div className="ofertas">
-            <Typography variant="h2" color="initial" className="ofertas__title">
+            <Typography variant="h2" color="initial" className="title">
                 ¡Ofertas!
             </Typography>
             <Ofertas

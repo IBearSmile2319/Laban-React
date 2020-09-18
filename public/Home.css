@@ -1,4 +1,20 @@
-/* carrusel */
+.toolbar{
+    margin-top: 5px !important;
+}
+@media (min-width:200px) and (max-width:960px){
+    .toolbar{
+        margin-top: 0px !important;
+    }
+}
+.title{
+    margin-left: 10px !important;
+    color:#e53935 ;
+    font-size: 55px !important;
+    font-family: 'Montserrat', sans-serif !important;
+    font-style: italic !important;
+    font-weight: 500 !important;
+}
+/* Homecarrusel */
 
 .home__carrusel__container{
     margin-top: 5px;
@@ -34,22 +50,15 @@
     }
 }
 /* --------------------- */
-/* Ofertas */
-.ofertas__title{
-    margin-left: 50px !important;
-    color:#e53935 ;
-    font-size: 55px !important;
-    font-family: 'Montserrat', sans-serif !important;
-    font-style: italic !important;
-    font-weight: 500 !important;
-}
+/* HomeOfertas */
 .Ofertas{
-
+    height: 300px;
+width: 100%;
 }
 .ofertas__carrusel{
     margin: 0 auto;
-    width: 90% !important;
-    height: 200px !important;
+    width: 100% !important;
+    height: 300px !important;
 
 }
 .ofertas__containes{
@@ -63,18 +72,64 @@ margin-left: 5px;
     height: 300px;
 }
 @media (min-width:200px) and (max-width:960px){
-    .ofertas__title{
-        font-size: 30px !important;
+    .ofertas__carrusel{
+    margin: 0 auto;
+    width: 100% !important;
+    height: 200px !important;
+    
+    }
+    .title{
+    font-size: 30px !important;
     }
     .ofertas__containes{
-        margin-right: 5px;
-        margin-left: 5px;
-         width: 200px;
-         height: 150px;
-        }
-        .ofertas__img{
-            width: 100%;
-            height: 150px;
-        }
+    margin-right: 5px;
+    margin-left: 5px;
+    width: 200px;
+    height: 150px;
+    }
+    .ofertas__img{
+    width: 100%;
+    height: 150px;
+    }
 
+}
+/* Homeproduts */
+.TDC__A__V__container{
+    width: 100% !important;
+    height: 350px !important;
+}
+.TDC__A__V__Card___container{
+    width: 240px !important;
+    height: 70px !important;
+}
+.TDC__A__V__Card__Title{
+    font-size: 12px !important;
+    font-family: 'Montserrat', sans-serif !important;
+}
+.card__product{
+    max-width: 345px !important;
+}
+.TDC__card__media{
+    height: 100px !important;
+}
+@media (min-width:200px) and (max-width:960px){
+    .TDC__A__V__container{
+        width: 100% !important;
+        height: 200px !important;
+    }
+    .TDC__A__V__Card___container{
+        width: 130px !important;
+        height: 60px !important;
+    }
+    .TDC__A__V__Card__Title{
+        font-size: 8px !important;
+        font-weight: 800 !important;
+        font-family: 'Montserrat', sans-serif !important;
+    }
+    .card__product{
+        width: 100px !important;
+    }
+    .TDC__card__media{
+        height: 60px !important;
+    }
 }
